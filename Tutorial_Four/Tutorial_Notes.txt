@@ -1,0 +1,29 @@
+Topic: Full Stack Web Development 
+Sub-topic: Displaying Data with Tables
+
+- Creating a table:
+* syntax:
+<table> ... </table>
+
+* Adding rows:
+To add a row you will need to add the following tag:
+<tr> ... </tr>
+
+* Adding data in rows:
+To add data in different columns for the same row, we 
+need to add <td>...</td> inside the <tr> </tr> tags. 
+
+- Formatting the table:
+Now we will be disucssing how to format the table provided
+such that it looks more attractive using html syntax. 
+
+* syntax:
+<table
+    border = "0"
+    cellpadding="10"
+    cellspacing="1"
+>
+
+* More formats:
+To add more formats, you can always look online for solutions. 
+
