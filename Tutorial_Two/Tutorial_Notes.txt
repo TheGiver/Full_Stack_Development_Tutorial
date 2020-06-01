@@ -1,0 +1,18 @@
+Topic: Full Stack Web Development 
+Sub-topic: Intro to HTML, Head, Body and Header
+
+- DOCTYPE Declaration:
+* What does it help with?
+This is not an html tag but it is a statement that informs the browser
+which type of html is currently being used in the development of the
+current html document. 
+
+- Opening the console in browser [Chrome]:
+* Why use the console:
+The console or the development tool allows us to see whether our code is 
+actually working or whether there exists an error lying in the code. 
+
+* Shortcut to open the console:
+To open the console in chrome, you can use the following shortcut:
+command + options + J
+
