@@ -1,0 +1,25 @@
+Topic: Full Stack Web Development 
+Sub-topic: Building Your First Website
+
+- HTML:
+* About HTML:
+HTML is a markup language used to design websites.
+The document is composed of embedded tags. 
+All tags that are opened need to be closed 
+in reverse order to which they were opened. 
+What this means is that the tag last opened
+is the first to be closed. 
+
+* Basic Structure of an HTML file:
+The first step towards building an html file is to define 
+the declaration which could be done using the following line 
+of code:
+<!DOCTYPE html>
+
+* Basic but interesting commands:
+The first useful command to know is the <br> which is a line break. 
+The second useful command is the <hr> which adds a horizontal line break. 
+You can also go online where you can find a cheat sheet that allows you to 
+understand and view the various commands available in html. 
+
+* 
