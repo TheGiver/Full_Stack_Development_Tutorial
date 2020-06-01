@@ -1,0 +1,38 @@
+Topic: Full Stack Web Development 
+Sub-topic: Lists, Paragraphs and Text Styling
+
+- Unordered Lists:
+* What are they:
+It is an html tag that allows you to inform the webpage 
+that you would like to create a list of items where each 
+item is placed on a new line. 
+
+* Tag:
+The tag for the unordered list looks something like the
+following:
+<ul> </ul>
+
+Inside each list you need to use another tag which will 
+allow you to give each item a bullet point. This tag has 
+the following structure:
+<li> -> Stands for 'list item'
+
+* Making an item clickable:
+To make an item clickable, you will need to add another 
+tag and then provide the link to allow the webpage
+to navigate between pages when those items are clicked. 
+
+* Tag:
+The tag has the following structure:
+<a href="<link>"> item_name </a>
+
+- Adding hyperreferences in html:
+* What has been covered:
+In the previous section, we have covered both the process 
+of making an item clickable and the way we can add a hyper-
+link to the item such that it allows the user to navigate from 
+one page to another. 
+
+* Observations:
+I have noticed that all references need to be preceeded with 
+an 'https://' otherwise the link will not work. 
