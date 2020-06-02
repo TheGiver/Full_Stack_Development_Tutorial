@@ -1,0 +1,23 @@
+Topic: Full Stack Web Development 
+Sub-topic: HTML Forms, Img and Iframe Tags
+
+- Ordered Lists:
+* The idea:
+If you had a list and you wanted to emphasise on the importance of 
+ordering, then you can use ordered lists. 
+
+* Tag:
+<ol> <il></il> ... <ol>
+
+- iFrames:
+* What is it?
+an iFrame is an HTML tag that allows developers to embed an html docu-
+ment into the current HTML document. 
+
+For instance, if we wanted to add an advertisement to the current document, 
+then it is better to use an iFrame and import the desired html document into 
+the current one. 
+
+- form:
+* The idea:
+a form is another HTML tag/element that is used to collect user input. 
