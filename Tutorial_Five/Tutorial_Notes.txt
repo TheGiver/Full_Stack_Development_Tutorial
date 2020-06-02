@@ -21,3 +21,52 @@ the current one.
 - form:
 * The idea:
 a form is another HTML tag/element that is used to collect user input. 
+
+* The content of form elements:
+The form element or tag can contain different embedded tags and those tags 
+are known as form elements. 
+
+Form elements are essentially different types of input elements and can include
+the following:
+a) Text fields
+b) checkboxes
+c) radio buttons
+d) submit buttons 
+etc. 
+
+* The input element:
+The input element is one of the tags that can be used inside the form element. 
+This element is the most important element that could be used insie the form 
+element. This element allows the web-page to accept input from the user. The type 
+of input depends on the type attribute associated with the tag.
+
+Ex.
+<input type="[text | radio | submit]"> ... </input>
+
+We will learn more about input types later on. 
+
+* The label element:
+This element allows the developer to attach a label or some sort of an identifier
+to another element. By doing so, you can attach meaning to an element that might not 
+be that clear to the user. For instance, when we have input elements, those elements do 
+not actually make sense on their own. However, when attaching a label to an element, then 
+the user can make sense of what each input field represents. 
+
+* Discussing the input types:
+As we have mentioned before, an input element could have one of the following types:
+a) text
+b) radio 
+c) submit 
+
+--> text:
+The text type is essentially a text field that allows the user to input text. 
+
+--> radio:
+The radio type restricts the user to select one of the finite options provided 
+to the user. 
+
+--> submit:
+This type allows the user to submit or send the information that he or she selected
+on the webpage. The information uploaded by the user is then sent to a form-handler. 
+The form-handler usually lies on the server side and its main purpose is to process 
+the data submitted by the user by running specific javascripts on the data. 

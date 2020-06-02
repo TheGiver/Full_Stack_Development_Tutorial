@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>
-            Hello People! This is my second website 
-            that I build. 
-        </h1>
+        <table>
+            <tr>
+                <td>
+                    <img src = "./cool_logo.jpg" width="200" length="1000">
+                </td>
+                <td>
+                    <h1>
+                        Hello People! This is my second website 
+                        that I build. 
+                    </h1>
+                </td>
+            </tr>
+        </table>
         <p>
             This is still a simple and a basic website that does not 
             contain a lot of items or data. 
@@ -58,7 +67,27 @@
 
         <hr>
 
-        <>
+        <h3> Please fill in the information below </h3>
+        <form>
+            <label for="full name">Full Name:</label>
+            <input type = "text" id = "full name" >
+            <br>
+            <label for = "Age">Age:</label>
+            <input type="text" id="Age">
+            <br>
+            <label for = "Gender">Gender</label>
+            <br>
+            <input type="radio" id = "Male" name="Gender">
+            <label for="Gender">Male</label>
+            <br>
+            <input type="radio" id="Female" name="Gender">
+            <label for="Gender">Female</label>
+            <br>
+            <input type="radio" id="Others" name="Gender">
+            <label for="Gender">Others</label>
+            <br>
+            <input type="submit" id="Submit Information">
+        </form>
 
     </body>
 </html>
