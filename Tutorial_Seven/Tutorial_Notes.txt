@@ -1,0 +1,48 @@
+Topic: Full Stack Web Development 
+Sub-topic: Element, Class, ID
+
+- Introduction:
+In this tutorial, we will be talking about the different ways we can style different elements in 
+a single html document. The approaches that we are going to discuss are:
+a) Styling by element 
+b) Styling by class 
+c) Styling by ID 
+
+- Styling by element:
+* Explanation:
+This form of styling involves creating a single style for all elements of the same tag_name. For 
+instance, if we had a tag with the name <h1> and there were multiple instances of that tag, then 
+they would all adpot the same style. Unless we want all the tags to adopt the same style, we can 
+see why this approach is limiting and a bit useless when we want to provide each element with a 
+different style. 
+
+- Styling by class
+* Explanation:
+A class is an attribute that can be given to any html tag. The class is a way to identify an 
+element and tends to be used for styling purposes. People tend to use class when they want to 
+embedd CSS code. 
+
+One thing to note about this attribute is that it is not a unique identifier. This means that we 
+can have more than one element with the same class name and they will all adopt the same css style 
+as defined by the developer. 
+
+Finally, to style all elements that have the class attribute, we need to define in the CSS file that 
+the block of styling code that we are about to provide belongs to all elements that have a particular 
+class value. To do so, our css code will look something like the following:
+
+.class_name {
+    //styling code
+}
+
+- Styling by id:
+* Explanation:
+An id is a unique identifier that is given to a particular element. 
+
+One thing to be aware off is that element ids are not usually used in styling as their main purpose 
+is to embedd javascript scripts into the html code. But, in the scenario where we do use id's then 
+the CSS file will look something like the following:
+
+#id_name {
+    //styling code
+}
+

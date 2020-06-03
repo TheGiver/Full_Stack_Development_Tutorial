@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-family:serif;
+    color:purple;
+}
+
+.Red_Headers {
+    color: red;
+    font-style:italic;
+}
+
+.square {
+    width:500px;
+    height:500px;
+    background: brown;
+    margin: 0 auto;
+}
+
+#Yellow_Header {
+    color: yellow;
+}
+
+#Green_Header {
+    color:green;
+}
+
+
