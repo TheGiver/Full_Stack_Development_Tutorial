@@ -1,0 +1,75 @@
+Topic: Full Stack Web Development 
+Sub-topic: Inline, Internal and External CSS
+
+- CSS:
+* Basic Introduction:
+CSS is a styling language that has been introduced to allow developers to style html pages to make 
+it look more attractive. 
+
+- Inline CSS:
+* Idea:
+The idea behind inline css is to add the code responsible for styling inside an html tag. 
+
+* Structure:
+To add the styling code within an html tag we need to do the following:
+<tag_name style="[property:value;]*"> ... </tag_name>
+
+* Advantages:
+The advantage of using this approach is that you can customize each tag the way you want. 
+For instance, if your code contains more than one <h1> tag, then for each tag you will be 
+adding the styling code which will you to customize each tag the way you want. 
+
+* Disadvantages:
+The first disadvantage is that this approach will increase the amount of code and information 
+inside the html page which might make it messy and hard to read. 
+
+The second disadvantage is that in certain scenarios, the code might become harder to maintain 
+because if we added a specific style to add tags of the same kind and now we want to change the 
+content of the style or remove it from all tags, then we would have to go through each tag and 
+change it manually which becomes a robust process. 
+
+- Internal CSS:
+* Idea:
+The internal CSS is similar to the inline css such that both approaches require adding the css 
+code to the html document. 
+
+* Structure:
+The main difference between internal and inline css is that internal adds the styling code outside 
+the html tags. The styling code in this type of css is added in the head of the html page, and it 
+looks something like the following:
+<head>
+    <style>
+        tag_name {
+            property:value;
+            ...
+        }
+        .
+        .
+        .
+    </style>
+</head>
+
+* Advantage:
+Using internal css reduces the amount of code we have to write as we can define the style for all 
+tags with the same title using one piece of code. 
+
+* Disadvantages:
+The disadvantage is that the html page will contain a lot of code and might end up looking confusing 
+and messy. 
+
+- External CSS:
+* Idea:
+The idea behind this approach is that all the styling code is put in a separate document external to 
+the html code.
+
+The external css code is then linked to the designated html page.
+
+* Advnatages:
+The advantage of this approach is that now we have more encapsulation than we used to and this allows 
+us to build clean code that is maintainable and easy to debug. 
+
+- Note:
+While doing the tutorials, I have noticed that in html, we have the ability to define or set the default 
+language of the webpage by using the following line of code:
+
+<html lang="en | any other language"> ... </html>

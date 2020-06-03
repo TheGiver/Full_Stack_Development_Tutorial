@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    font-size:23;
+    font-style:unset;
+}
+
+h2 {
+    color:brown;
+    font-size:19;    
+}
+
+body {
+    background-color: lightblue;
+}
