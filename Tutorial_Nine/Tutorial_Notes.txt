@@ -1,0 +1,25 @@
+Topic: Full Stack Web Development 
+Sub-topic: Background & Borders
+
+- General Note:
+One thing to note is that in CSS we can use general properties or branch into more specific properties. 
+For instance, for a particular element in CSS, we can specify the property background [general property]
+and then provide values for the different more specific properties in an organised matter. 
+{You can check online documentations for a more descriptive representation of the paragraph above}
+
+The advantages of using the more generic property is that you reduce the amount of code required to write.
+Nonetheless, this might make the code less readable and harder to decode. 
+
+- Background:
+There is not much to say about this property. With the background property, you have the ability to set  
+various background related styles such as a color or an image. 
+
+In background, you have the option to use the generic 'background' property and provide more specific code 
+as values to the property. Or, choose a more specific background related property and provide a specific 
+value related to that property. 
+
+- Borders:
+As we all know, borders are essentially lines or markers that determine the borders of an element. The same 
+definition applies to CSS and html; a border is nothing but a line that can be styled in different ways that 
+marks the parameter of an element. 
+

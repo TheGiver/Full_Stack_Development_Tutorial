@@ -1,0 +1,12 @@
+body {
+    background-image: url(./images/sky_background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stick_figure {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    opacity: 0.1;
+}
