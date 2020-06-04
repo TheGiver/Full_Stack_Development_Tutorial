@@ -1,0 +1,11 @@
+.shadow {
+    background-image: linear-gradient(to right, red,orange,yellow,lightgreen,green);
+    box-shadow: 10px 10px 10px black;
+}
+
+h1 {
+    font-size: 24;
+    background: -webkit-linear-gradient(to right, lightblue, blue); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: blue;
+}

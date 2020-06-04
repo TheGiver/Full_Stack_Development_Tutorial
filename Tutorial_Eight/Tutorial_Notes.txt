@@ -1,0 +1,67 @@
+Topic: Full Stack Web Development 
+Sub-topic: Colors, Gradient and Shadows 
+
+- Colors:
+* 3 Styles of choosing a color:
+CSS allows you to set colors to elements in 3 different ways and those are:
+a) Using the color name:
+   You need to ensure that the color you select is a color that is supported by CSS, otherwise the color you 
+   chose will not be selected. 
+
+b) Using hexcode:
+   Hexcode is essentially a number in hexadecimal format that represents a particular color. If you would like 
+   to use a hexcode, then the number needs to attached to the # symbol. Usually a color is represented using a 
+   6 digit hexacode. 
+
+c) Using rgb():
+   rgb() is a function that stands for [red | green | blue] and inside the function you specify 3 comma separated 
+   values that range between 0-255 that determine the intensity of each of the 3 colors, and based on the combination 
+   of primary colors used you can create secondary colors. 
+
+- Gradient:
+* Basic idea:
+The idea behind a gradient is that you can play with the intensity of the color in one element. 
+So, instead of having one shade of color x in the background of an element, you can have multiple 
+shades which can make things prettier and more interesting. 
+
+* Proper definition of a color gradient:
+A color gradient allows a smooth transition between 2 or more colors in one area of the webpage. 
+
+* Note:
+One thing to note is that not all browsers/browser versions support the feature of gradients. Therefore, 
+as a developer, you will have to cater for this situation either by:
+1) Using a special command that is specific for each browser that informs the browser that a gradient is 
+   being used at a specific place on the webpage
+2) Add a default color that the webpage will choose if it does not support gradients
+
+* Functions:
+There are a lot of gradient related functions out there that could be used to add this feature. The most 
+important thing is to look up their documentation when you want to use them as their parameters might d-
+iffer. 
+
+- Shadows:
+* Main Idea:
+The idea behind a shadow is simple, you literally create a shadow under an element to give it a 3d touch,
+look or feeling. 
+
+* What elements can be shadowed:
+In CSS you and html you can shadow any element [text | image | div].
+
+* What can you do with a shadow:
+In CSS you can change the color of the shadow, its vertical | horizontal position and its intensity. 
+All you need to do is understand how the different shadow properties can be used and what can they 
+take as part of their parameters. 
+
+* Observation: 
+While watching the tutorial, I was a little bit confused regarding the values that the text-shadow 
+accepts. Hence, I decided to experiment with them and was able to observe some stuff regarding the 
+vertical and horizontal setting of the shadowing. 
+
+text-shadow, box-shadow and other forms of shadow typically take a horizontal and vertical values 
+that determine the direction [left | right & up | down] of the shadow. The values of these properties
+look something like the following:
+
+shadow_property: [horizontal shadowing {left | right}] [vertical shadowing [up | down]] [radius] [color]
+
+As for the radius, it determines the intensity of the shadowing. In other words, the lower the radius, the 
+more concentrated the shadowing is and vice versa. 
